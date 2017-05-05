@@ -1,4 +1,3 @@
 
-
-Console.log("Bem-vindo ao Carrinho de Compras!");
+alert("Bem-vindo ao Carrinho de Compras!");
 
