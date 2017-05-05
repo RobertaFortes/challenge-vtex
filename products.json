@@ -1,0 +1,14 @@
+{"products": [
+	{
+		"id": 13,
+		"name": "Tênis Feminino Running",
+		"price": 213.50,
+    "discount": 0
+	},
+	{
+		"id": 57,
+		"name": "Smartphone Samsung Desbloqueado, 2 Chips",
+		"price": 479.80,
+    "discount": 0
+	}
+]}
