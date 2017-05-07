@@ -34,6 +34,7 @@ function addToCart () {
         else {
           total += item.price;
           if (confirm("Deseja adicionar cupom [S/n]?") == true) {
+            alert("Digite o código do cupom:");
             getDiscount();
           }
           console.log("Total: " + total);
@@ -59,6 +60,7 @@ function getDiscount () {
         console.log("Descontos: " + "-" + valueDiscount);
         total = total - valueDiscount;
         console.log("TOTAL: " + total);
+        alert("O desconto foi aplicado!");
       }
     }
   });
